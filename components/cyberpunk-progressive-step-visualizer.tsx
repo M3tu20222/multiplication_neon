@@ -71,7 +71,7 @@ export function CyberpunkProgressiveStepVisualizer() {
                 onClick={incrementStep}
                 className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-300 ease-in-out transform hover:scale-105"
               >
-                {currentStep < MAX_STEPS ? `Next Step (${currentStep}/${MAX_STEPS})` : 'Reset'}
+                {currentStep < MAX_STEPS ? `Sonraki Çarpan (${currentStep}/${MAX_STEPS})` : 'Reset'}
               </Button>
             </div>
           </div>
