@@ -42,11 +42,11 @@ export function CyberpunkProgressiveStepVisualizer() {
       <div className="w-full max-w-4xl bg-gray-800 p-8 rounded-lg shadow-2xl relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-800 to-blue-900 opacity-50 animate-pulse" />
         <div className="relative z-10">
-          <h1 className="text-4xl font-bold mb-8 text-center text-cyan-400 drop-shadow-glow">Cyberpunk Progressive Step Visualizer</h1>
+          <h1 className="text-4xl font-bold mb-8 text-center text-cyan-400 drop-shadow-glow">Çarpma İşlemi Modelleyici</h1>
           <div className="grid grid-cols-[auto,1fr] gap-8 mb-10">
             <div className="flex flex-col items-center">
               <label htmlFor="stepSize" className="block text-sm font-medium mb-2">
-                Step Size
+                Çarpan
               </label>
               <div className="flex items-center">
                 <Button
