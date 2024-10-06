@@ -11,8 +11,8 @@ export function CyberpunkProgressiveStepVisualizer() {
   const [values, setValues] = useState<number[]>([])
   const [key, setKey] = useState(0)
 
-  const MAX_STEPS = 20
-  const MAX_STEP_SIZE = 10
+  const MAX_STEPS = 10
+  const MAX_STEP_SIZE = 20
 
   useEffect(() => {
     const newValues = Array.from({ length: currentStep }, (_, i) => (i + 1) * stepSize)
